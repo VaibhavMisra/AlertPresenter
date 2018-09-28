@@ -17,6 +17,9 @@ class ViewController: UIViewController {
 
 
     @IBAction func showAlert(_ sender: Any) {
+        AlertPresenter().presentAlert(from: self, title: "Test Alert", msg: "Testing", actions: [UIAlertAction(title: "Ok", style: .default, handler: { (action) in
+            print("Ok Pressed")
+        })])
     }
 }
 

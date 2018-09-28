@@ -13,6 +13,8 @@
 		EE3C0A92215DEBA2006B9217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3C0A91215DEBA2006B9217 /* Assets.xcassets */; };
 		EE3C0A95215DEBA2006B9217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C0A93215DEBA2006B9217 /* LaunchScreen.storyboard */; };
 		EE3C0AA0215DEBA2006B9217 /* AlertPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C0A9F215DEBA2006B9217 /* AlertPresenterTests.swift */; };
+		EE3C0AAB215DED51006B9217 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C0AAA215DED51006B9217 /* AlertPresenter.swift */; };
+		EE3C0AAC215DED51006B9217 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C0AAA215DED51006B9217 /* AlertPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		EE3C0A9B215DEBA2006B9217 /* AlertPresenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertPresenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3C0A9F215DEBA2006B9217 /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
 		EE3C0AA1215DEBA2006B9217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3C0AAA215DED51006B9217 /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				EE3C0A8A215DEBA2006B9217 /* AppDelegate.swift */,
 				EE3C0A8C215DEBA2006B9217 /* ViewController.swift */,
+				EE3C0AAA215DED51006B9217 /* AlertPresenter.swift */,
 				EE3C0A8E215DEBA2006B9217 /* Main.storyboard */,
 				EE3C0A91215DEBA2006B9217 /* Assets.xcassets */,
 				EE3C0A93215DEBA2006B9217 /* LaunchScreen.storyboard */,
@@ -199,6 +203,7 @@
 			files = (
 				EE3C0A8D215DEBA2006B9217 /* ViewController.swift in Sources */,
 				EE3C0A8B215DEBA2006B9217 /* AppDelegate.swift in Sources */,
+				EE3C0AAB215DED51006B9217 /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3C0AA0215DEBA2006B9217 /* AlertPresenterTests.swift in Sources */,
+				EE3C0AAC215DED51006B9217 /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
